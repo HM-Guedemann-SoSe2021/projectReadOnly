@@ -3,7 +3,7 @@ Kommando aus:
 
 > aptitude install haskell-platform
 
-Zum deinstallieren der Haskell Plattform führen Sie folgenden Befehls aus:
+Zum deinstallieren der Haskell Plattform führen Sie folgenden Befehl aus:
 
 > apt remove haskell-platform
 bzw.
