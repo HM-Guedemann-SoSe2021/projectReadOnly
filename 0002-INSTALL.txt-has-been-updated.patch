@@ -1,0 +1,24 @@
+From ad27bae84df6521eb9e918ea733aca7f668f9d05 Mon Sep 17 00:00:00 2001
+From: Florian Bernhard <florian.bernhardłhm.edu>
+Date: Tue, 23 Mar 2021 15:20:41 +0100
+Subject: [PATCH 2/2] INSTALL.txt has been updated
+
+---
+ INSTALL.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/INSTALL.txt b/INSTALL.txt
+index e8c911f..74d68d1 100644
+--- a/INSTALL.txt
++++ b/INSTALL.txt
+@@ -2,3 +2,7 @@ Zum installieren der Haskell Plattform unter Debian führen Sie folgendes
+ Kommando aus:
+ 
+ > aptitude install haskell-platform
++
++Zum deinstallieren der Haskell Plattform unter Debian führen Sie folgendes Kommando aus:
++
++> sudo apt-get remove haskell-platform
+-- 
+2.25.1
+

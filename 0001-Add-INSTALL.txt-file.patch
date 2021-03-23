@@ -1,0 +1,28 @@
+From 123454aac348e9fa3d50f85f16b453419014c908 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Matthias=20G=C3=BCdemann?= <matthias.guedemann@hm.edu>
+Date: Thu, 12 Mar 2020 22:49:01 +0100
+Subject: [PATCH 1/2] Add INSTALL.txt file
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Die INSTALL.txt Datei enthält eine kurze Info, wie man die Haskell Plattform
+unter Debian (und Ubuntu) Linux installiert.
+---
+ INSTALL.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 INSTALL.txt
+
+diff --git a/INSTALL.txt b/INSTALL.txt
+new file mode 100644
+index 0000000..e8c911f
+--- /dev/null
++++ b/INSTALL.txt
+@@ -0,0 +1,4 @@
++Zum installieren der Haskell Plattform unter Debian führen Sie folgendes
++Kommando aus:
++
++> aptitude install haskell-platform
+-- 
+2.25.1
+
